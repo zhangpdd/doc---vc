@@ -20,6 +20,9 @@
     __weak typeof(self)safe = self;
     dispatch_async(dispatch_get_main_queue(), ^{
         [safe gotoDoc];
+        
+        
+        
 //        vc.bgColor = @"#C7EDCC";
 //        vc.textColor = [UIColor blueColor];
 //        [safe presentViewController:vc animated:YES completion:nil];
